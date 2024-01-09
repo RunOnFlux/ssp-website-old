@@ -30,7 +30,7 @@
     line-height: 21px;
     letter-spacing: 0em;
     text-align: justified;
-
+    color: #fff;
 }
 
 .card2{
@@ -61,6 +61,7 @@
     letter-spacing: 0em;
     text-align: justified;
     margin-bottom: 20px;
+    color: #fff;
 }
 .card2 ul{
     list-style-type: decimal;
