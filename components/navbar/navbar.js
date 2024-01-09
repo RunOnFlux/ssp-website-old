@@ -29,7 +29,7 @@ export function NavBar(props){
             <Nav.Link className={styles.navLink} href={'/guide'}>Guide</Nav.Link>
             <Nav.Link className={styles.navLink} href={'/support'}>Support</Nav.Link>
             <Nav.Link className={styles.navLink} href={'/contact'}>Contact</Nav.Link>
-            <Nav.Link className={styles.navLink} href="#"><span>Download</span></Nav.Link>
+            <Nav.Link className={styles.navLink} href="/download"><span>Download</span></Nav.Link>
             <Nav.Link className={styles.navLink} href="#"><Image className={styles.twitterLogo} alt="logo" src={TwitterLogo}/></Nav.Link>
           </Nav>
         </Navbar.Collapse>
@@ -50,7 +50,7 @@ export function NavBar(props){
             <Nav.Link className={styles.navLink} href={'/guide'}>Guide</Nav.Link>
             <Nav.Link className={styles.navLink} href={'/support'}>Support</Nav.Link>
             <Nav.Link className={styles.navLink} href={'/contact'}>Contact</Nav.Link>
-            <Nav.Link className={styles.navLink} href={'#'}><span>Download</span></Nav.Link>
+            <Nav.Link className={styles.navLink} href={'/download'}><span>Download</span></Nav.Link>
             <Nav.Link className={styles.navLink} href="#"><Image className={styles.twitterLogo} alt="logo" src={TwitterLogo}/></Nav.Link>
           </Nav>
         </Navbar.Collapse>

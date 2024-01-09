@@ -15,7 +15,7 @@
     border-radius: 20px;
 }
 .section1 h6{
-    font-family: Bitsumishi;
+    font-family: 'Bitsumishi';
     font-size: 30px;
     font-weight: 400;
     line-height: 30px;
@@ -24,7 +24,7 @@
     color: #F9DB10;
 }
 .section1 p{
-    font-family: Montserrat;
+    font-family: 'Montserrat';
     font-size: 15px;
     font-weight: 400;
     line-height: 21px;
@@ -43,7 +43,7 @@
    
 }
 .card2 h3{
-    font-family: Bitsumishi;
+    font-family: 'Bitsumishi';
     font-size: 33px;
     font-weight: 400;
     line-height: 63px;
@@ -54,7 +54,7 @@
 }
 
 .card2 ul li{
-    font-family: Montserrat;
+    font-family: 'Montserrat';
     font-size: 14px;
     font-weight: 400;
     line-height: 22px;
@@ -89,7 +89,7 @@
         width: 95%;
     }
     .section1 h6{
-        font-family: Bitsumishi;
+        font-family: 'Bitsumishi';
         font-size: 25px;
         font-weight: 400;
         line-height: 25px;
@@ -98,7 +98,7 @@
         color: #F9DB10;
     }
     .section1 p{
-        font-family: Montserrat;
+        font-family: 'Montserrat';
         font-size: 14px;
         font-weight: 400;
         line-height: 22px;
@@ -116,7 +116,7 @@
         width: 95%;
     }
     .card2 h3{
-        font-family: Bitsumishi;
+        font-family: 'Bitsumishi';
         font-size: 33px;
         font-weight: 400;
         line-height: 33px;
@@ -127,7 +127,7 @@
     }
     
     .card2 ul li{
-        font-family: Montserrat;
+        font-family: 'Montserrat';
         font-size: 13px;
         font-weight: 400;
         line-height: 22px;
@@ -144,7 +144,7 @@
         width: 100%;
     }
     .section1 h6{
-        font-family: Bitsumishi;
+        font-family: 'Bitsumishi';
         font-size: 20px;
         font-weight: 400;
         line-height: 20px;
@@ -153,7 +153,7 @@
         color: #F9DB10;
     }
     .section1 p{
-        font-family: Montserrat;
+        font-family: 'Montserrat';
         font-size: 13px;
         font-weight: 400;
         line-height: 21px;
@@ -173,7 +173,7 @@
         width: 100%;
     }
     .card2 h3{
-        font-family: Bitsumishi;
+        font-family: 'Bitsumishi';
         font-size: 23px;
         font-weight: 400;
         line-height: 23px;
@@ -184,7 +184,7 @@
     }
     
     .card2 ul li{
-        font-family: Montserrat;
+        font-family: 'Montserrat';
         font-size: 13px;
         font-weight: 400;
         line-height: 22px;
@@ -200,7 +200,7 @@
         border-radius: 20px;
     }
     .section1 h6{
-        font-family: Bitsumishi;
+        font-family: 'Bitsumishi';
         font-size: 20px;
         font-weight: 400;
         line-height: 20px;
@@ -209,7 +209,7 @@
         color: #F9DB10;
     }
     .section1 p{
-        font-family: Montserrat;
+        font-family: 'Montserrat';
         font-size: 13px;
         font-weight: 400;
         line-height: 21px;
@@ -227,7 +227,7 @@
         margin-bottom: 50px;
     }
     .card2 h3{
-        font-family: Bitsumishi;
+        font-family: 'Bitsumishi';
         font-size: 23px;
         font-weight: 400;
         line-height: 23px;
@@ -238,7 +238,7 @@
     }
     
     .card2 ul li{
-        font-family: Montserrat;
+        font-family: 'Montserrat';
         font-size: 13px;
         font-weight: 400;
         line-height: 21px;
