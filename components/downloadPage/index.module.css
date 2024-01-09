@@ -296,4 +296,7 @@
         width: auto;
         height: 70px
     }
+    .card2{
+        width: 100%;
+    }
 }
