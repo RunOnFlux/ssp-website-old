@@ -1,0 +1,8 @@
+.git
+.DS_Store
+.env
+.next
+node_modules
+Dockerfile*
+.eslint*
+README.md
