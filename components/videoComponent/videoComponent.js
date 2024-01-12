@@ -3,7 +3,7 @@ import dynamic from 'next/dynamic'
 
 export function VideoComponent(){
     const ReactPlayer = dynamic(() => import("react-player"), { ssr: false });
-    let videosrc = "/images/ssp animation 4 for site (1).webm";
+    let videosrc = "/images/animation.webm";
 
     return(
         <div>
