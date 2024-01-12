@@ -25,8 +25,8 @@ a {
     --bs-accordion-bg: transparent;
     --bs-accordion-transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, border-radius 0.15s ease;
     --bs-accordion-border-color: transparent;
-    --bs-accordion-btn-icon: url('/images/vector.svg');
-    --bs-accordion-btn-active-icon: url('/images/vector.svg');
+    /* --bs-accordion-btn-icon: url('/images/vector.svg');
+    --bs-accordion-btn-active-icon: url('/images/vector.svg'); */
     font-family: Montserrat;
     font-size: 16px;
 }
@@ -55,10 +55,17 @@ a {
     --bs-accordion-bg: transparent;
     --bs-accordion-transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, border-radius 0.15s ease;
     --bs-accordion-border-color: transparent;
-    --bs-accordion-btn-icon: url('/images/vector.svg');
-    --bs-accordion-btn-active-icon: url('/images/vector.svg');
+    --bs-accordion-btn-icon: url('/images/vector.svg') !important;
+    --bs-accordion-btn-active-icon: url('/images/vector.svg') !important;
     font-family: Montserrat;
     font-size: 16px;
+}
+
+.accordion-btn{
+  background-image: url('/images/vector.svg') !important;
+} 
+.accordion-btn-active{
+  background-image: url('/images/vector.svg') !important;
 }
 .accordion-button:focus {
   z-index: 3;
@@ -76,13 +83,11 @@ a {
   }
 }
 
-.navbar{
+/* .navbar{
   --bs-navbar-toggler-icon-bg: url('/images/toggler.svg') !important;
-}
+} */
 
-.navbar-toggler-icon{
-  background-image: url('/images/toggler.svg') !important;
-}
+
 .navbar-toggler{
   border:  none !important;
 }
@@ -96,6 +101,10 @@ a {
 }
 
 @media (max-width: 991.98px){
+
+  .navbar-toggler-icon{
+    background-image: url('/images/toggler.svg') !important;
+  }
 
  .navbar{
   justify-content: right;
@@ -143,7 +152,7 @@ a {
 }
 
 .accordion-button {
-  color: #F9DB10;
+  color: #fff;
   outline: none;
   border-bottom: 1px solid white;
   font-family: Bitsumishi;
@@ -159,11 +168,17 @@ a {
     --bs-accordion-bg: transparent;
     --bs-accordion-transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, border-radius 0.15s ease;
     --bs-accordion-border-color: transparent;
-    --bs-accordion-btn-icon: url('/images/vector.svg');
-    --bs-accordion-btn-active-icon: url('/images/vector.svg');
+    --bs-accordion-btn-icon: url('/images/vector.svg') !important;
+    --bs-accordion-btn-active-icon: url('/images/vector.svg') !important;
     font-family: Montserrat;
     font-size: 14px;
     line-height: 20px;
+}
+.accordion-btn-icon{
+  background: url('/images/vector.svg') !important;
+} 
+.accordion-btn-active-icon{
+  background: url('/images/vector.svg') !important;
 }
 
 }
@@ -179,7 +194,7 @@ a {
   }
 
   .accordion-button {
-    color: #F9DB10;
+    color: #fff;
     outline: none;
     border-bottom: 1px solid white;
     font-family: Bitsumishi;
@@ -195,11 +210,17 @@ a {
       --bs-accordion-bg: transparent;
       --bs-accordion-transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, border-radius 0.15s ease;
       --bs-accordion-border-color: transparent;
-      --bs-accordion-btn-icon: url('/images/vector.svg');
-      --bs-accordion-btn-active-icon: url('/images/vector.svg');
+      --bs-accordion-btn-icon: url('/images/vector.svg') !important;
+      --bs-accordion-btn-active-icon: url('/images/vector.svg') !important;
       font-family: Montserrat;
       font-size: 13px;
       line-height: 20px;
+  }
+  .accordion-btn-icon{
+    background: url('/images/vector.svg') !important;
+  } 
+  .accordion-btn-active-icon{
+    background: url('/images/vector.svg') !important;
   }
 }
 
