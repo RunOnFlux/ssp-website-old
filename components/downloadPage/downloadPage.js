@@ -32,7 +32,7 @@ export function DownloadPage(){
                                     </div>
                             </div>
                         </div>
-                        <div className="col-lg-5 col-md-6" style={{display:"inline-flex", alignItems: "center"}}>
+                        <div className={`${styles.card001} col-lg-5 col-md-6`}>
                             <div>
                             <div className={styles.card2}>
                             <div className={styles.headerText2}>
