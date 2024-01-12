@@ -12,7 +12,7 @@ export function VideoComponent(){
                 height="auto"
                 url={videosrc}
                 controls={true}
-                // autoplay={true}
+                autoplay={true}
              
                 light={false}
              
