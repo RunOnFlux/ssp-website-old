@@ -81,14 +81,14 @@ a {
   }
 }
 
-/* .navbar{
-  --bs-navbar-toggler-icon-bg: url('/images/toggler.svg') !important;
-} */
+.navbar{
+  --bs-navbar-toggler-icon-bg: none !important;
+}
 
 
 .navbar-toggler{
   border:  none !important;
-  /* background-image: url("/images/toggler.svg") !important; */
+  background: url("/images/toggler.svg") !important;
 }
 .navbar-toggler:focus{
   box-shadow: none !important;
@@ -102,7 +102,7 @@ a {
 @media (max-width: 991.98px){
 
   .navbar-toggler-icon{
-    background-image: url("/images/toggler.svg") !important;
+    background-image: none !important;
   }
 
  .navbar{
