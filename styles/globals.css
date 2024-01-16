@@ -53,17 +53,17 @@ a {
     --bs-accordion-bg: transparent;
     --bs-accordion-transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, border-radius 0.15s ease;
     --bs-accordion-border-color: transparent;
-    --bs-accordion-btn-icon: url("/images/vector.svg") !important;
-    --bs-accordion-btn-active-icon: url("/images/vector.svg") !important;
+    /* --bs-accordion-btn-icon: url("/images/vector.svg") !important;
+    --bs-accordion-btn-active-icon: url("/images/vector.svg") !important; */
     font-family: Montserrat;
     font-size: 16px;
 }
 
 .accordion-btn{
-  background-image: url("/images/vector.svg") !important;
+  /* background-image: url("/images/vector.svg") !important; */
 } 
 .accordion-btn-active{
-  background-image: url("/images/vector.svg") !important;
+  /* background-image: url("/images/vector.svg") !important; */
 }
 .accordion-button:focus {
   z-index: 3;
@@ -82,19 +82,23 @@ a {
 }
 
 .navbar{
-  --bs-navbar-toggler-icon-bg: none !important;
+  /* --bs-navbar-toggler-icon-bg: url("/images/toggler.svg") !important; */
 }
 
+.navbar .navbar-toggler .navbar-toggler-icon{
+  background-image: url("../public/images/toggler.svg") !important;
+  background-image: url("/images/toggler.svg") !important;
+}
 
 .navbar-toggler{
   border:  none !important;
-  background: url("/images/toggler.svg") !important;
+  /* background: url("/images/toggler.svg") !important; */
 }
 .navbar-toggler:focus{
   box-shadow: none !important;
   border: none !important;
 }
-.navbar .navbar-toggle{
+.navbar .navbar-toggler{
   outline: none !important;
   border: none !important;
 }
@@ -102,7 +106,7 @@ a {
 @media (max-width: 991.98px){
 
   .navbar-toggler-icon{
-    background-image: none !important;
+    /* background-image:url("/images/toggler.svg") !important; */
   }
 
  .navbar{
@@ -167,17 +171,17 @@ a {
     --bs-accordion-bg: transparent;
     --bs-accordion-transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, border-radius 0.15s ease;
     --bs-accordion-border-color: transparent;
-    --bs-accordion-btn-icon: url("/images/vector.svg") !important;
-    --bs-accordion-btn-active-icon: url("/images/vector.svg") !important;
+    /* --bs-accordion-btn-icon: url("/images/vector.svg") !important; */
+    /* --bs-accordion-btn-active-icon: url("/images/vector.svg") !important; */
     font-family: Montserrat;
     font-size: 14px;
     line-height: 20px;
 }
 .accordion-btn-icon{
-  background: url("/images/vector.svg") !important;
+  /* background: url("/images/vector.svg") !important; */
 } 
 .accordion-btn-active-icon{
-  background: url("/images/vector.svg") !important;
+  /* background: url("/images/vector.svg") !important; */
 }
 
 }
@@ -209,17 +213,17 @@ a {
       --bs-accordion-bg: transparent;
       --bs-accordion-transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, border-radius 0.15s ease;
       --bs-accordion-border-color: transparent;
-      --bs-accordion-btn-icon: url("/images/vector.svg") !important;
-      --bs-accordion-btn-active-icon: url("/images/vector.svg") !important;
+      /* --bs-accordion-btn-icon: url("/images/vector.svg") !important; */
+      /* --bs-accordion-btn-active-icon: url("/images/vector.svg") !important; */
       font-family: Montserrat;
       font-size: 13px;
       line-height: 20px;
   }
   .accordion-btn-icon{
-    background: url("/images/vector.svg") !important;
+    /* background: url("/images/vector.svg") !important; */
   } 
   .accordion-btn-active-icon{
-    background: url("/images/vector.svg") !important;
+    /* background: url("/images/vector.svg") !important; */
   }
 }
 
