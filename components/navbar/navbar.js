@@ -16,12 +16,12 @@ export function NavBar(props){
     return(
         <React.Fragment>
      <div className="d-none d-lg-block">
-       <Navbar expand="lg" className={styles.navbar} fixed="top">
+       <Navbar expand="lg" className={styles.navbar} fixed="top" variant="dark">
       <Container>
         <Navbar.Brand href="#">
         <Image alt="logo" src={Logo} />
         </Navbar.Brand>
-        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        <Navbar.Toggle aria-controls="basic-navbar-nav" className={styles.toggler} />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ms-auto">
             <Nav.Link className={styles.navLink} href={'/'}>Home</Nav.Link>

@@ -13,7 +13,7 @@ export function HomePage(){
             <div className="container">
                 <div className="row">
                    <div className="col-lg-7 mb-5">
-                    <h1>Secure, Simple,<br/> Powerful</h1><br/>
+                    <h1>Securew, Simple,<br/> Powerful</h1><br/>
                     <a href="#"> Get Started</a>
                     <Image alt="ssp-animation" src={sspImage}/>
                    </div>

@@ -19,8 +19,8 @@ export function VideoComponent(){
                 pip={true}
                 style={{marginTop: "30px"}}
             />
-            {/* <source src={videosrc} type="video/mp4" />
-              <video  width="100%" height="auto" controls autoPlay muted src="/images/animation.mp4" style={{marginTop: "30px"}}/> */}
+            <source src={videosrc} type="video/mp4" />
+              <video  width="100%" height="auto" controls autoPlay muted src="/images/animation.mp4" style={{marginTop: "30px"}}/> 
               {/* <video width="100%" height="auto" controls autoPlay style={{marginTop: "30px"}}>
             <source src="/images/animation.mp4" type="video/mp4"/>
             </video>                        */}

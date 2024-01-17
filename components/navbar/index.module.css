@@ -42,6 +42,8 @@
     width: auto;
   }
 
+ 
+
   @media (max-width: 991.98px){
     .navLink{
         padding: 9px  10px!important;
