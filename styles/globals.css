@@ -75,26 +75,18 @@ a {
   color: #F9DB10!important;
 }
 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
-}
+
 
 .navbar{
   --bs-navbar-toggler-icon-bg: url("/images/toggler.png") !important;
 }
 
-.navbar .navbar-toggler .navbar-toggler-icon{
-  /* background-image: url("../public/images/toggler.svg") !important; */
+.navbar .navbar-toggler .navbar-toggler-icon-bg{
+  background-image: url("../public/images/toggler.svg") !important;
   background-image: url("/images/toggler.png") !important;
 }
 
-.navbar-toggler{
-  /* border:  none !important; */
-  /* background: url("/images/toggler.png") !important; */
- 
-}
+
 .navbar-toggler:focus{
   box-shadow: none !important;
   border: none !important;
@@ -107,7 +99,7 @@ a {
 @media (max-width: 991.98px){
 
   .navbar-toggler-icon{
-    background-image:url("/images/toggler.png") !important;
+    /* background-image:url("/images/toggler.png") !important; */
   }
 
  .navbar{
