@@ -104,7 +104,7 @@ a {
   }
 
   .navbar-dark{
-    --bs-navbar-toggler-icon-bg: url("/images/toggler.png") !important;
+    /* --bs-navbar-toggler-icon-bg: url("/images/toggler.png") !important; */
   }
 
  .navbar{
