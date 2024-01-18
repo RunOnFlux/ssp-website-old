@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import React from "react";
 import styles from "./index.module.css"
 import Image from "next/image";
@@ -12,16 +13,16 @@ export function HomePage(){
         <section className={styles.section1}>
             <div className="container">
                 <div className="row">
-                   <div className="col-lg-7 mb-5">
+                   <div className="col-lg-6 mb-5">
                     <h1>Secure, Simple,<br/> Powerful</h1><br/>
                     <a href="#"> Get Started</a>
                     <Image alt="ssp-animation" src={sspImage}/>
                    </div>
-                   <div className="col-lg-5">
+                   <div className="col-lg-6">
                     <div className={styles.card1}>
                         <h3>Revolutionize </h3>
                         <h6>your wallet with <span>ssp</span></h6>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        <p>Serving as the true guardian of your digital wealth, SSP Wallet ensures ownership by putting the keys back into the hands of users. With a focus on usability, accessibility, and intuitive design, SSP provides a seamless transition to Web3. Leveraging industry-leading encryption, SSP offers powerful security features, including a multi-signature structure and two-factor authentication. Adhering to a strict "No-storing" policy, SSP eliminates the risks associated with data breaches. As an entirely decentralized and open-source project, SSP evolves with global contributions, allowing users to actively participate in building a decentralized future. The SSP Wallet, available as a Chrome extension, integrates effortlessly with major DApp platforms.</p>
                     </div>
                         <div className={styles.cardPicture}>
                         {/* <Image alt="picture" src={picture1} /> */}

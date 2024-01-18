@@ -1,6 +1,7 @@
 
   @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700&display=swap');
   @import url('https://fonts.cdnfonts.com/css/bitsumishi');
+ 
 html,
 body {
   margin-top: 40px;
@@ -23,8 +24,8 @@ a {
     --bs-accordion-bg: transparent;
     --bs-accordion-transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, border-radius 0.15s ease;
     --bs-accordion-border-color: transparent;
-    --bs-accordion-btn-icon: url('/images/vector.png');
-    --bs-accordion-btn-active-icon: url('/images/vector.png');
+    /* --bs-accordion-btn-icon: url('/images/vector.png'); */
+    /* --bs-accordion-btn-active-icon: url('/images/vector.png'); */
     font-family: Montserrat;
     font-size: 16px;
 }
@@ -53,17 +54,17 @@ a {
     --bs-accordion-bg: transparent;
     --bs-accordion-transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, border-radius 0.15s ease;
     --bs-accordion-border-color: transparent;
-    --bs-accordion-btn-icon: url("/images/vector.png") !important;
-    --bs-accordion-btn-active-icon: url("/images/vector.png") !important;
+    /* --bs-accordion-btn-icon: url("/images/vector.png") !important; */
+    /* --bs-accordion-btn-active-icon: url("/images/vector.png") !important; */
     font-family: Montserrat;
     font-size: 16px;
 }
 
 .accordion-btn{
-  background-image: url("/images/vector.png") !important;
+  /* background-image: url("/images/vector.png") !important; */
 } 
 .accordion-btn-active{
-  background-image: url("/images/vector.png") !important;
+  /* background-image: url("/images/vector.png") !important; */
 }
 .accordion-button:focus {
   z-index: 3;
@@ -78,12 +79,12 @@ a {
 
 
 .navbar{
-  --bs-navbar-toggler-icon-bg: url("/images/toggler.png") !important;
+  /* --bs-navbar-toggler-icon-bg: url("/images/toggler.png") !important; */
 }
 
 .navbar .navbar-toggler .navbar-toggler-icon-bg{
-  background-image: url("../public/images/toggler.svg") !important;
-  background-image: url("/images/toggler.png") !important;
+  /* background-image: url("../public/images/toggler.svg") !important; */
+  /* background-image: url("/images/toggler.png") !important; */
 }
 
 
@@ -100,6 +101,10 @@ a {
 
   .navbar-toggler-icon{
     /* background-image:url("/images/toggler.png") !important; */
+  }
+
+  .navbar-dark{
+    --bs-navbar-toggler-icon-bg: url("/images/toggler.png") !important;
   }
 
  .navbar{
@@ -164,17 +169,17 @@ a {
     --bs-accordion-bg: transparent;
     --bs-accordion-transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, border-radius 0.15s ease;
     --bs-accordion-border-color: transparent;
-    --bs-accordion-btn-icon: url("/images/vector.png") !important;
-    --bs-accordion-btn-active-icon: url("/images/vector.png") !important;
+    /* --bs-accordion-btn-icon: url("/images/vector.png") !important; */
+    /* --bs-accordion-btn-active-icon: url("/images/vector.png") !important; */
     font-family: Montserrat;
     font-size: 14px;
     line-height: 20px;
 }
 .accordion-btn-icon{
-  background: url("/images/vector.png") !important;
+  /* background: url("/images/vector.png") !important; */
 } 
 .accordion-btn-active-icon{
-  background: url("/images/vector.png") !important;
+  /* background: url("/images/vector.png") !important; */
 }
 
 }
@@ -206,17 +211,17 @@ a {
       --bs-accordion-bg: transparent;
       --bs-accordion-transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, border-radius 0.15s ease;
       --bs-accordion-border-color: transparent;
-      --bs-accordion-btn-icon: url("/images/vector.png") !important;
-      --bs-accordion-btn-active-icon: url("/images/vector.png") !important;
+      /* --bs-accordion-btn-icon: url("/images/vector.png") !important; */
+      /* --bs-accordion-btn-active-icon: url("/images/vector.png") !important; */
       font-family: Montserrat;
       font-size: 13px;
       line-height: 20px;
   }
   .accordion-btn-icon{
-    background: url("/images/vector.png") !important;
+    /* background: url("/images/vector.png") !important; */
   } 
   .accordion-btn-active-icon{
-    background: url("/images/vector.png") !important;
+    /* background: url("/images/vector.png") !important; */
   }
 }
 

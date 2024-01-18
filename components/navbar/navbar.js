@@ -16,7 +16,7 @@ export function NavBar(props){
     return(
         <React.Fragment>
      <div className="d-none d-lg-block">
-       <Navbar expand="lg" className={styles.navbar} fixed="top" variant="dark">
+       <Navbar expand="lg" className={styles.navbar} fixed="top" >
       <Container>
         <Navbar.Brand href="#">
         <Image alt="logo" src={Logo} />
@@ -38,8 +38,8 @@ export function NavBar(props){
     </div>
 
     <div className="d-block d-lg-none">
-    <Navbar collapseOnSelect expand="lg" className={styles.navbar} fixed="top" >
-        <Navbar.Brand href="#">
+    <Navbar collapseOnSelect expand="lg" className={styles.navbar} variant="dark" fixed="top" >
+        <Navbar.Brand href="/">
         <Image alt="logo" src={Logo} />
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav"  />

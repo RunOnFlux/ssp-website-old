@@ -85,6 +85,10 @@ color: #fff;
     display: inline-flex;
     align-items: center;
 }
+
+.cardText h3 span img{
+    height: 40px !important;
+}
 .card2{
     border-radius: 20px;
     padding:30px 80px;

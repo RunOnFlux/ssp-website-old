@@ -56,6 +56,17 @@
     margin-left: 20px;
 }
 
+.card2 p{
+    font-family: 'Montserrat';
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: justified;
+    margin-bottom: 20px;
+    color: #F9DB10;   
+}
+
 .card2 ul li{
     font-family: 'Montserrat';
     font-size: 14px;
@@ -65,6 +76,16 @@
     text-align: justified;
     margin-bottom: 20px;
     color: #fff;
+}
+.card2 ul li a{
+    font-family: 'Montserrat';
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: justified;
+    margin-bottom: 20px;
+    color: #F9DB10;
 }
 .card2 ul{
     list-style-type: decimal;
@@ -139,6 +160,25 @@
         text-align: justified;
         margin-bottom: 20px;
     }
+
+    .card2 ul li a{
+        font-family: 'Montserrat';
+        font-size: 13px;
+        font-weight: 400;
+        line-height: 22px;
+        letter-spacing: 0em;
+        text-align: justified;
+        margin-bottom: 20px;
+    }
+    .card2 p{
+        font-family: 'Montserrat';
+        font-size: 13px;
+        font-weight: 400;
+        line-height: 22px;
+        letter-spacing: 0em;
+        text-align: justified;
+        margin-bottom: 20px;
+    }
 }
 @media (max-width: 767.98px) {
     .card{
@@ -196,6 +236,24 @@
         text-align: justified;
         margin-bottom: 20px;
     }
+    .card2 ul li a{
+        font-family: 'Montserrat';
+        font-size: 13px;
+        font-weight: 400;
+        line-height: 22px;
+        letter-spacing: 0em;
+        text-align: justified;
+        margin-bottom: 20px;
+    }
+    .card2 p{
+        font-family: 'Montserrat';
+        font-size: 13px;
+        font-weight: 400;
+        line-height: 22px;
+        letter-spacing: 0em;
+        text-align: justified;
+        margin-bottom: 20px;
+    }
 }
 @media (max-width: 575.98px){
     .card{
@@ -242,6 +300,24 @@
     }
     
     .card2 ul li{
+        font-family: 'Montserrat';
+        font-size: 13px;
+        font-weight: 400;
+        line-height: 21px;
+        letter-spacing: 0em;
+        text-align: justified;
+        margin-bottom: 20px;
+    }
+    .card2 ul li a{
+        font-family: 'Montserrat';
+        font-size: 13px;
+        font-weight: 400;
+        line-height: 21px;
+        letter-spacing: 0em;
+        text-align: justified;
+        margin-bottom: 20px;
+    }
+    .card2 p{
         font-family: 'Montserrat';
         font-size: 13px;
         font-weight: 400;
